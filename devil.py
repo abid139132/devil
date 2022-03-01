@@ -16,7 +16,7 @@ os.system('rm -rf ..txt')
 for n in range(9999):
     nmbr = random.randint(1111, 9999)
     sys.stdout = open('..txt', 'a')
-    print nmbr ()
+    print (nmbr) 
     sys.stdout.flush()
     
 try:
